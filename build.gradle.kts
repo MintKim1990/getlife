@@ -36,7 +36,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-redis-reactive")
 
 	// r2dbc
-	implementation("io.asyncer:r2dbc-mysql:0.9.2")
+	implementation("io.asyncer:r2dbc-mysql:1.3.1")
 
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
 
@@ -48,6 +48,9 @@ dependencies {
 
 	// Kotlin
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
+
+	// Swagger
+	implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.2.0")
 
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")

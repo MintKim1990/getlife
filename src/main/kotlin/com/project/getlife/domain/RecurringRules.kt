@@ -14,6 +14,6 @@ data class RecurringRules(
     @Column("reservation_id")
     val reservationId: Long,
 
-    @Column("weekdays")
-    val weekdays: Set<Weekday>
+    @Column("weekday")
+    val weekday: Weekday
 )

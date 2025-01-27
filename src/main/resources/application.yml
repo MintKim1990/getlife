@@ -8,6 +8,8 @@ spring:
     password: 1234
 
 logging:
+  level:
+    root: INFO
   org.springframework.transaction: DEBUG
 
 springdoc:

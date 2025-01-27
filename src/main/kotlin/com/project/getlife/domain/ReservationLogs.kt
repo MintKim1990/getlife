@@ -21,7 +21,7 @@ data class ReservationLogs (
     val notes: String? = null,
 
     @Column("created_at")
-    val createdAt: LocalDateTime? = null
+    val createdAt: LocalDateTime? = LocalDateTime.now()
 ) {
 
 }
